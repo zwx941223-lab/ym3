@@ -39,7 +39,7 @@ form?.addEventListener('submit', (event) => {
   requestText.value = message;
   ready.hidden = false;
   ready.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  window.location.href = `https://t.me/${telegramUsername}?text=${encodeURIComponent(message)}`;
+  window.location.href = `tg://resolve?domain=${telegramUsername}`;
 });
 
 copyButton?.addEventListener('click', async () => {
