@@ -4,7 +4,7 @@ const ready = document.querySelector('[data-request-ready]');
 const requestText = document.querySelector('[data-request-text]');
 const copyButton = document.querySelector('[data-copy-request]');
 const shareButton = document.querySelector('[data-share-request]');
-document.querySelector('.footer small')?.replaceChildren('v0.1.7');
+document.querySelector('.footer small')?.replaceChildren('v0.1.9');
 
 function buildRequest(data) { return `Hola, me interesa recibir información sobre el apoyo para abrir una tienda en TikTok Shop.\n\nNombre: ${data.name}\nVerificación y documentación: ${data.profile}`; }
 
