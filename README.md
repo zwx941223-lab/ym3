@@ -1,8 +1,8 @@
-# Abasto Directo
+# NEXO SHOP MX
 
-Version: `0.0.8`
+Version: `0.1.6`
 
-Spanish-first static landing page for recruiting supply-chain collaborators in Mexico. It is designed around a real campaign narrative: household-goods supply, responsible local collaborators, and a clear path to initiate contact.
+Spanish-first static landing page for TikTok Shop support traffic in Mexico. Copy follows the second page's service, verification, review, and Telegram messaging.
 
 ## Run locally
 
@@ -14,8 +14,8 @@ Open `http://127.0.0.1:4173`.
 
 ## Lead handoff
 
-The form deliberately prepares a shareable application message. It does not submit data to a third party until a real WhatsApp Business destination or CRM endpoint is supplied.
+The form prepares a Telegram message using the configured public username.
 
 ## Media
 
-`assets/warehouse-hero.png` is a local generated hero asset and is ignored by Git. Replace it with the approved campaign video or image before deployment, keeping the filename or updating the reference in `styles.css`.
+`assets/mexico-bg.png` is the model-generated Mexican background. The campaign video remains local-only and is not intended for server deployment.
