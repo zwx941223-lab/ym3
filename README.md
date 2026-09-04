@@ -1,6 +1,6 @@
 # NEXO SHOP MX
 
-Version: `0.1.7`
+Version: `0.1.9`
 
 Spanish-first static landing page for TikTok Shop support traffic in Mexico. Copy follows the second page's service, verification, review, and Telegram messaging.
 
